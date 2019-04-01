@@ -7,5 +7,11 @@ func main() {
 	fruitArr[0] = "a"
 	fruitArr[1] = "b"
 
-	fmt.Println(fruitArr)
+	fruitArr2 := [2]string{"ao", "bo"}
+	fruitSlice := []string{"ao", "bo", "co"}
+	fmt.Println(len(fruitArr))
+	fmt.Println(fruitArr2)
+	fmt.Println(fruitSlice)
+	fmt.Println(fruitSlice[0:1])
+
 }
